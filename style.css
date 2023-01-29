@@ -1,31 +1,104 @@
-*{
-   padding: 0; 
-   margin: 0;
-   font-family: 'Comic Sans MS', 'Arial',' Verdana';
-   box-sizing: border-box;
-   background-color: var(--color-uno);
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Comic Sans MS', 'Arial', ' Verdana';
+    box-sizing: border-box;
+    background-color: rgb(202, 206, 204);
 
 }
-:root{
-    --color-uno: bisque;
-    --color-dos: blue;
-}
+
 header {
-    background-color: var(--color-uno);
+    background-color: rgb(202, 206, 204);
     padding: 10px;
+}
+
+nav {
+    position: absolute;
+    margin-left: 550px;
 }
 
 nav a {
     text-decoration: none;
     display: inline-block;
     height: 40px;
-    width: 200px;
-    color: rgb(22, 22, 230);
+    width: 150px;
+    color: white;
     text-align: center;
     border: 2px solid #1c9b44;
-     background-color: rgb(151, 209, 209);
+    background-color: rgb(151, 209, 209);
     padding-top: 10px;
+    box-shadow: 5px 5px 15px 0px rgb(5, 109, 109);
+    border-radius: 10px;
 }
-h1{
-    font-family:"Comic Sans MS, Arial, Verdana"  ;
+
+nav a:hover {
+    color: black;
+    background: rgb(245, 245, 35);
+}
+
+@media(hover: hover) {
+    nav a:hover {
+        color: black;
+        background: rgb(245, 245, 35);
+    }
+}
+
+h1 {
+    font-family: 'Comic Sans MS', 'Arial', 'Verdana';
+    text-align: center;
+    font-size: 60px;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.play {
+
+    width: 80vw;
+    height: 25vw;
+    padding: 1px;
+    margin: 20px 30px 0px 100px;
+    border: 1px solid red;
+    position: static;
+
+}
+
+.logo {
+
+    width: 150px;
+    display: inline-block;
+    margin-left: 90px;
+    position: fixed;
+
+}
+
+.conteiner {
+    display: inline-block;
+    margin-left: 350px;
+
+}
+
+h2 {
+    margin: -20px 30px 50px 110px;
+    border: 1px solid red;
+    display: block;
+    width: 80vw;
+    text-align: center;
+
+}
+
+.content {
+    margin-left: 250px;
+    display: inline-block;
+    vertical-align: top;
+    width: 60vw;
+
+}
+
+.contact {
+    width: 500px;
+    height: 50px;
+    margin-left: 350px;
+    display: inline-block;
+    vertical-align: top;
+
 }
